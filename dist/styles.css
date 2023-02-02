@@ -1,0 +1,113 @@
+.cm-sider-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    align-items: flex-start;
+    padding: 10px 20px;
+    border-right: 1px solid #00000040;
+}
+
+.cm-sider-wrapper .title,
+.cm-sider-wrapper .subtitle {
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 6px 12px;
+    border-radius: 2px;
+    width: calc(100% + 24px);
+}
+
+.cm-sider-wrapper .title {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #8c8c8c;
+}
+
+.cm-sider-wrapper .subtitle {
+    background: #f5f9f1;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin-top: 12px;
+}
+
+.cm-sider-wrapper .stat-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 2px;
+}
+
+.cm-sider-wrapper .stat-info:hover {
+    background: #f6ffed;
+}
+
+.cm-sider-wrapper .stat-info .stat-value {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #52c41a;
+}
+
+.cm-sider-wrapper .stat-info .stat-label {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.cm-sider-wrapper .dotted-divider {
+    width: 100%;
+    height: 0px;
+    margin: 16px 0px;
+    border-top: 0.5px dashed black;
+}
+
+.cm-sider-wrapper .tree-data {
+    width: 100%;
+    padding: 6px 0px;
+}
+
+.cm-sider-wrapper .activity-data {
+    padding: 6px 0px;
+    width: 100%;
+    margin-bottom: 44px;
+}
+
+.cm-sider-wrapper .empty-activity {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    line-height: 24px;
+    color: #bfbfbf;
+}
+
+.cm-sider-wrapper .create-case-in-progess {
+    position: fixed;
+    left: 4px;
+    bottom: 48px;
+    font-size: 16px;
+    z-index: 1000;
+    background-color: rgb(245, 34, 45) !important;
+    border: none;
+}
+
+.cm-sider-wrapper .create-case {
+    margin-top: 12px;
+    justify-content: flex-end;
+}
+
+.header-title,
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* .component-container aside {
+    min-width: 100% !important;
+    max-width: 100% !important;
+} */

@@ -1,0 +1,38 @@
+{
+    "name": "@ivoyant/component-cm-sider",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Case Management Sider",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-bulk-rsa": "^1.0.0",
+        "@ivoyant/component-create-case": "^1.0.0",
+        "@ivoyant/component-interaction": "^1.0.0",
+        "@ivoyant/component-new-notification": "^1.0.0",
+        "@ivoyant/component-unlockimei-tool": "^1.0.0",
+        "@storybook/react": "^6.5.15",
+        "moment": "^2.24.0",
+        "react-quill": "^2.0.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "1.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
